@@ -1,0 +1,11 @@
+import Vue from "vue";
+import Component from "vue-class-component";
+
+@Component({
+
+})
+export class OldVueFileTest extends Vue {
+  public mounted() {
+    console.log("It is mounted");
+  }
+}

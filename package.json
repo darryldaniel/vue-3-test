@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "migrate": "node ./src/migrateClassComponent.js"
   },
   "dependencies": {
     "core-js": "^3.8.1",
+    "glob": "^7.1.6",
     "register-service-worker": "^1.7.2",
     "vue": "^3.0.4",
     "vue-class-component": "^8.0.0-0",
@@ -36,10 +38,12 @@
     "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-vue": "^7.2.0",
     "lint-staged": "^10.5.3",
+    "mitt": "^2.1.0",
     "prettier": "^2.2.1",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "typescript": "~4.1.2",
+    "vue-decorator": "^1.1.2",
     "vue-jest": "^5.0.0-0"
   },
   "gitHooks": {
